@@ -83,7 +83,7 @@ echo -e "\033[1;36mwget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;33m ° Perfecto, Utilice el comando \033[1;31mautoonline\033[0m"
-echo -e "\033[1;33m ° para administrar sus claves y
+echo -e "\033[1;33m    para administrar sus claves y
    Actualizar la base de servidores\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 rm -rf $HOME/trans > /dev/null 2>&1
