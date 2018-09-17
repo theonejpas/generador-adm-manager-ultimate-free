@@ -54,8 +54,8 @@ echo -e "\033[1;32m ° INSTALANDO RECURSOS DE SYSTEMA...\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;32m Aguarde...\033[1;32m"
 
-wget http://45.7.230.128:81/241340/adm-server.tgz > /dev/null 2>&1
-wget http://45.7.230.128:81/241340/bin.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/adm-server.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/bin.tgz > /dev/null 2>&1
 tar xvfz /root/adm-server.tgz > /dev/null 2>&1
 tar xvfz /root/bin.tgz > /dev/null 2>&1
 rm -rf /root/adm-server.tgz > /dev/null 2>&1
@@ -75,11 +75,11 @@ echo -e "\033[1;34m Aguarde...\033[1;32m"
 
 locale-gen en_US.UTF-8 > /dev/null 2>&1
 update-locale LANG=en_US.UTF-8 > /dev/null 2>&1
-wget -O trans https://www.dropbox.com/s/l6iqf5xjtjmpdx5/trans?dl=0 -o /dev/null 2>&1
+wget -O trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/trans -o /dev/null 2>&1
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
-echo -e "\033[1;36mwget https://www.dropbox.com/s/hv06d464ia1hb19/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
+echo -e "\033[1;36mwget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;32m ° Perfecto Procedimiento Hecho con Exito!\033[0m"
