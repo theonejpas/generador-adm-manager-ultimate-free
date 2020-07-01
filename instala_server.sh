@@ -75,7 +75,7 @@ echo -e "\033[1;34m Aguarde...\033[1;32m"
 
 locale-gen en_US.UTF-8 > /dev/null 2>&1
 update-locale LANG=en_US.UTF-8 > /dev/null 2>&1
-wget -O trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/trans -o /dev/null 2>&1
+wget -O trans https://raw.githubusercontent.com/theonejpas/generador-adm-manager-ultimate-free/master/Install/trans -o /dev/null 2>&1
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
