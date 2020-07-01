@@ -54,8 +54,8 @@ echo -e "\033[1;32m ° INSTALANDO RECURSOS DE SYSTEMA...\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;32m Aguarde...\033[1;32m"
 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/adm-server.tgz > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/bin.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/theonejpas/generador-adm-manager-ultimate-free/master/adm-server.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/theonejpas/generador-adm-manager-ultimate-free/master/bin.tgz > /dev/null 2>&1
 tar xvfz /root/adm-server.tgz > /dev/null 2>&1
 tar xvfz /root/bin.tgz > /dev/null 2>&1
 rm -rf /root/adm-server.tgz > /dev/null 2>&1
@@ -79,7 +79,7 @@ wget -O trans https://raw.githubusercontent.com/theonejpas/generador-adm-manager
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
-echo -e "\033[1;36mwget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
+echo -e "\033[1;36mwget https://raw.githubusercontent.com/theonejpas/generador-adm-manager-ultimate-free/master/Install/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;33m ° Perfecto, Utilice el comando \033[1;31mautoonline\033[0m"
